@@ -11,6 +11,7 @@ export default function AddStudent() {
     const param = useParams()
 
     useEffect(() => {
+        // km
 
         axios.get(`https://65af84f32f26c3f2139b0190.mockapi.io/reception`)
             .then(item => {
